@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Ayush's Website
 
-You can use the [editor on GitHub](https://github.com/Ayushd70/ayushd70.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
