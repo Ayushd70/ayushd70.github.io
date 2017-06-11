@@ -1,37 +1,23 @@
-## Welcome to Ayush's Website
+## Welcome to Ayush's Website :)
 
 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hello my name is AYUSH and Here is A short Intro about me,
+I am a student and I am learning how to work with computers and everything about them, in these past 5/6 months I have worked a lot with Android and PC. During these months I have also worked on extending my abilities in Animations & Designing (Adobe After Effects and Photoshop). 
 
-### Markdown
+Everything I do is basically a small hobby of mine which I do when I get time.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Coding 
+Its fun loving thing for developers. I started with modding SystemUI, framework-res etc. Then decided to move on to serious programming, So started with Android deving.I learnt programming myself. How ? Everything I have learnt is something that I taught myself by using "Trial And Error".
 
-```markdown
-Syntax highlighted code block
+#### Experiment
+Like I said I learnt coding myself. So there have to be some experiments too, no? Yes, like building ROMS,Recoveries and testing them or releasing them for testing. I do a lot of visual experiments too, like Building Games and Trying Diffrent Codes.
 
-# Header 1
-## Header 2
-### Header 3
+##### Contact ;)
+Email-ayushdubey70@gmail.com
+Github-github.com/Ayushd70
+Facebook-https://www.facebook.com/HeyImAyushd
 
-- Bulleted
-- List
+###### MORE UPDATES COMING SOON, STAY TUNED:)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ayushd70/ayushd70.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+####### © 2017 Ayush Dubey, All rights reserved.
