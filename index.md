@@ -16,11 +16,11 @@ Like I said I learnt coding myself. So there have to be some experiments too, no
 ### Contact ;)
 Email-ayushdubey70@gmail.com
 
-Telegram-t.me/Ayushd70
+Telegram- t.me/Ayushd70
 
-Github-github.com/Ayushd70
+Github- github.com/Ayushd70
 
-Facebook-https://www.facebook.com/HeyImAyushd
+Facebook- facebook.com/HeyImAyushd
 
 Instagram-ayushd70
 
