@@ -8,7 +8,9 @@
 	<meta name="robots" content="index,follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="google-site-verification" content="I4_hULZxkuy_0GtDQ3cPNPsyb1FLK-L2I5XyXqDzHi4" />
-	<title>Ayush Dubey</title>
+	<meta href="https://plus.google.com/+AyushDubey70" rel="author">
+	<meta href="https://plus.google.com/+AyushDubey70" rel="publisher">
+	<title>Carlos Arriaga</title>
 	<link rel="stylesheet" href="css/style.css" media="screen" sizes="any">
 </head>
 <body>
@@ -16,17 +18,24 @@
 		<header>
 			<a href="">
 				<img src="https://avatars2.githubusercontent.com/u/25736781?v=3&s=460" alt="sri profile pic" />
-                        </a>
+			</a>
 			<h1>Ayush Dubey</h1>
 			<h2>Android developer.</h2>
 		</header>
 		<div class="profile-bio">
 			<p>17 years old</p>
-			<p>Student,Learner</p>
-			<i>"I❤Food&Tech"</i>
+			<p>Student</p>
+			<i>"I ❤ Food"</i>
 		</div>
 		<ul class="profile-social-links">
-			
+			<li>
+				<a href="https://plus.google.com/+AyushDubey70" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="32px" height="32px" viewBox="0 75 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+						<path d="M377.472,224.957H201.319v58.718H308.79c-16.032,51.048-63.714,88.077-120.055,88.077     c-69.492,0-125.823-56.335-125.823-125.824c0-69.492,56.333-125.823,125.823-125.823c34.994,0,66.645,14.289,89.452,37.346     l42.622-46.328c-34.04-33.355-80.65-53.929-132.074-53.929C84.5,57.193,0,141.693,0,245.928s84.5,188.737,188.736,188.737     c91.307,0,171.248-64.844,188.737-150.989v-58.718L377.472,224.957L377.472,224.957z" fill="#ffffff"/>
+						<polygon points="491.858,224.857 455.827,224.857 455.827,188.826 424.941,188.826 424.941,224.857 388.91,224.857      388.91,255.74 424.941,255.74 424.941,291.772 455.827,291.772 455.827,255.74 491.858,255.74    " fill="#ffffff"/>
+					</svg>
+				</a>
+			</li>
 			<li>
 				<a href="https://github.com/Ayushd70/" target="_blank">
 					<svg viewBox="0 0 32 32">
@@ -57,7 +66,7 @@
 			</li>
 			<li>
 				<a href="https://www.facebook.com/HeyImAyushd" target="_blank">
-				<svg viewBox="0 0 32 32">
+					<svg viewBox="0 0 32 32">
 						<path fill="#ffffff" d="M17.996 32h-5.996v-16h-4v-5.514l4-0.002-0.007-3.248c0-4.498 1.22-7.236 6.519-7.236h4.412v5.515h-2.757c-2.064 0-2.163 0.771-2.163 2.209l-0.008 2.76h4.959l-0.584 5.514-4.37 0.002-0.004 16z" />
 					</svg>
 				</a>
