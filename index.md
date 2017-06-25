@@ -16,8 +16,7 @@
 		<header>
 			<a href="">
 				<img src="https://avatars2.githubusercontent.com/u/25736781?v=3&s=460" alt="sri profile pic" />
-   
-			</a>
+                        </a>
 			<h1>Ayush Dubey</h1>
 			<h2>Android developer.</h2>
 		</header>
