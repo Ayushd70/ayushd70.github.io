@@ -15,7 +15,7 @@
 	<aside class="profile-card">
 		<header>
 			<a href="">
-				<img src="https://avatars2.githubusercontent.com/u/25736781?v=3&s=400" alt="sri profile pic" />
+				<img src="https://avatars2.githubusercontent.com/u/25736781?v=3&s=460" alt="sri profile pic" />
    
 			</a>
 			<h1>Ayush Dubey</h1>
