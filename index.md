@@ -7,7 +7,7 @@
 	<meta name="description" content="Ayush Dubey.">
 	<meta name="robots" content="index,follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<meta name="google-site-verification" content="I4_hULZxkuy_0GtDQ3cPNPsyb1FLK-L2I5XyXqDzHi4" />
 	<title>Ayush Dubey</title>
 	<link rel="stylesheet" href="css/style.css" media="screen" sizes="any">
 </head>
