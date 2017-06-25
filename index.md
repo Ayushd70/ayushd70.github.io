@@ -19,12 +19,12 @@
    
 			</a>
 			<h1>Ayush Dubey</h1>
-			<h2>Android developer and Tech Geek.</h2>
+			<h2>Android developer.</h2>
 		</header>
 		<div class="profile-bio">
 			<p>17 years old</p>
 			<p>Student,Learner</p>
-			<i>"I ❤ Food&Tech"</i>
+			<i>"I❤Food&Tech"</i>
 		</div>
 		<ul class="profile-social-links">
 			
