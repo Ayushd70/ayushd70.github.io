@@ -39,16 +39,16 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="font-mono text-lg font-semibold tracking-tight text-foreground transition-colors hover:text-accent"
+          className="font-mono text-base font-semibold tracking-tight text-foreground transition-colors hover:text-accent sm:text-lg"
         >
-          AD.
+          AYUSH DUBEY
         </a>
 
         <div className="hidden items-center gap-1 md:flex">
@@ -81,7 +81,7 @@ export function Navbar() {
 
       {isOpen && (
         <div className="border-b border-border bg-background/95 backdrop-blur-xl md:hidden">
-          <div className="mx-auto max-w-5xl space-y-1 px-6 py-4">
+          <div className="mx-auto max-w-5xl space-y-1 px-4 py-4 sm:px-6">
             {navLinks.map((link) => (
               <a
                 key={link.href}

@@ -21,10 +21,10 @@ const iconMap: Record<string, React.ComponentType<{ size?: number }>> = {
 
 export function Footer() {
   return (
-    <footer id="contact" className="border-t border-border py-12">
-      <div className="mx-auto max-w-5xl px-6">
+    <footer id="contact" className="scroll-mt-24 border-t border-border py-10 sm:py-12">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="flex flex-col items-center text-center">
-          <h2 className="text-2xl font-bold md:text-3xl">Get In Touch</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">Get In Touch</h2>
           <p className="mt-3 max-w-md text-muted-foreground">
             I&apos;m always open to discussing new opportunities, collaborations,
             or just having a chat about tech.
@@ -38,7 +38,7 @@ export function Footer() {
             Say Hello
           </a>
 
-          <div className="mt-10 flex items-center gap-4">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             {socialLinks.map((link) => {
               const Icon = iconMap[link.icon];
               return (

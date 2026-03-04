@@ -2,7 +2,7 @@
 
 import { SectionWrapper, SectionHeading } from "./section-wrapper";
 import { experiences } from "@/data/resume";
-import { Briefcase } from "lucide-react";
+import { Briefcase, ExternalLink } from "lucide-react";
 
 export function Experience() {
   return (
@@ -25,7 +25,20 @@ export function Experience() {
                 <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
                   <div>
                     <h3 className="text-lg font-semibold">{exp.title}</h3>
-                    <p className="text-sm text-accent">{exp.company}</p>
+                    {exp.url ? (
+                      <a
+                        href={exp.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+                        aria-label={`Visit ${exp.company}`}
+                      >
+                        {exp.company}
+                        <ExternalLink size={14} />
+                      </a>
+                    ) : (
+                      <p className="text-sm text-accent">{exp.company}</p>
+                    )}
                   </div>
                   <div className="text-left sm:text-right">
                     <p className="font-mono text-xs text-muted-foreground">

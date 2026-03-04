@@ -2,7 +2,7 @@
 
 import { SectionWrapper, SectionHeading } from "./section-wrapper";
 import { education } from "@/data/resume";
-import { GraduationCap } from "lucide-react";
+import { ExternalLink, GraduationCap } from "lucide-react";
 
 export function Education() {
   return (
@@ -17,7 +17,20 @@ export function Education() {
             <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <h3 className="text-lg font-semibold">{education.degree}</h3>
-                <p className="text-sm text-accent">{education.school}</p>
+                {education.url ? (
+                  <a
+                    href={education.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+                    aria-label={`Visit ${education.school}`}
+                  >
+                    {education.school}
+                    <ExternalLink size={14} />
+                  </a>
+                ) : (
+                  <p className="text-sm text-accent">{education.school}</p>
+                )}
                 <p className="text-xs text-muted-foreground">
                   {education.location}
                 </p>

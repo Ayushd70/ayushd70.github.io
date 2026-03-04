@@ -31,6 +31,7 @@ export const stats = [
 export interface Experience {
   title: string;
   company: string;
+  url?: string;
   location: string;
   period: string;
   bullets: string[];
@@ -40,6 +41,7 @@ export const experiences: Experience[] = [
   {
     title: "Lead Engineer – Mobile",
     company: "Twin.Shop",
+    url: "https://www.twin.shop/",
     location: "Gurugram, India",
     period: "Jul 2025 – Present",
     bullets: [
@@ -52,6 +54,7 @@ export const experiences: Experience[] = [
   {
     title: "Software Engineer – Mobile",
     company: "RentOk",
+    url: "https://rentok.com/",
     location: "Gurugram, India",
     period: "Dec 2023 – Jul 2025",
     bullets: [
@@ -65,6 +68,7 @@ export const experiences: Experience[] = [
   {
     title: "Founding Engineer",
     company: "Rooftop",
+    url: "https://rooftopapp.com/",
     location: "Remote",
     period: "Jul 2021 – Jun 2022",
     bullets: [
@@ -161,12 +165,14 @@ export const projects: Project[] = [
     description:
       "AI-powered virtual try-on and shopping app. Led mobile architecture and on-device AI integration.",
     tags: ["Flutter", "AI/ML", "Mobile", "Architecture"],
+    url: "https://www.twin.shop/",
   },
   {
     title: "RentOk Manager App",
     description:
       "Flagship B2B property management app serving 30K+ owners. Led iOS development and feature delivery.",
     tags: ["Flutter", "iOS", "B2B", "SaaS"],
+    url: "https://rentok.com/",
   },
   {
     title: "Tenant App SDK",
@@ -212,6 +218,7 @@ export const projects: Project[] = [
 export const education = {
   degree: "B.Tech in Computer Science Engineering",
   school: "St. Thomas' College of Engineering & Technology",
+  url: "https://stcet.ac.in/",
   location: "Kolkata, India",
   period: "Aug 2019 – Jul 2023",
   gpa: "9.50",
