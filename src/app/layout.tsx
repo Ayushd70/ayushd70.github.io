@@ -36,9 +36,9 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Ayush Dubey — Lead Mobile Engineer",
+    title: "Ayush Dubey",
     description:
-      "Lead Mobile Engineer with 4+ years' experience building scalable cross-platform apps and SaaS products.",
+      "Software Engineer with 4+ years' experience building scalable cross-platform apps and SaaS products.",
     url: "https://ayushd70.dev",
     siteName: "Ayush Dubey",
     locale: "en_US",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ayush Dubey — Lead Mobile Engineer",
+    title: "Ayush Dubey",
     description:
-      "Lead Mobile Engineer with 4+ years' experience building scalable cross-platform apps and SaaS products.",
+      "Software Engineer with 4+ years' experience building scalable cross-platform apps and SaaS products.",
     creator: "@Ayushd70",
   },
   metadataBase: new URL("https://ayushd70.dev"),

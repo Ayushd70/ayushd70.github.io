@@ -7,7 +7,7 @@ export const personalInfo = {
   resumeUrl: "https://drive.google.com/file/d/1Gfhmi0NKrERDKePHSzApJEu1A3KgVEbt/view?usp=sharing",
   summary:
     "Lead Mobile Engineer with 4+ years of experience building scalable cross-platform apps and SaaS products. Experienced in Flutter, iOS, Android, backend APIs, microservices, cloud architecture, and AI integrations.",
-  bio: "I'm a passionate Software Engineer based in India with extensive expertise in mobile application development. Currently, I serve as the Lead Mobile Engineer at Twin.Shop, where I'm leading the mobile efforts for an innovative AI-powered virtual try-on and shopping platform. I actively maintain several Android Custom ROMs at XDA Developers, showcasing my deep understanding of Android internals and system architecture.",
+  bio: "I'm a passionate Software Engineer based in India with extensive expertise in mobile application development. Currently, I serve as the Lead Mobile Engineer at Twin.Shop, where I'm leading the mobile efforts for an innovative AI-powered virtual try-on and shopping platform. I also maintained several Android Custom ROMs at XDA Developers as a Recognized Developer, which gave me a deep understanding of Android internals and system architecture.",
 };
 
 export const socialLinks = [
