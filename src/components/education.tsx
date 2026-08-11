@@ -35,7 +35,7 @@ export function Education() {
               {education.period}
             </p>
             <p className="mt-1 font-mono text-sm font-semibold text-accent">
-              GPA: {education.gpa}
+              CGPA: {education.cgpa}
             </p>
           </div>
         </div>

@@ -179,7 +179,7 @@ export const education = {
   url: "https://stcet.ac.in/",
   location: "Kolkata, India",
   period: "Aug 2019 – Jul 2023",
-  gpa: "9.50",
+  cgpa: "9.02",
   coursework: ["OOPS Concepts", "Database Fundamentals", "OS Fundamentals"],
 };
 
