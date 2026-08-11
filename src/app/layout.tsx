@@ -1,29 +1,32 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, IBM_Plex_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const plusJakarta = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta",
   subsets: ["latin"],
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
+const ibmPlexMono = IBM_Plex_Mono({
+  variable: "--font-ibm-plex-mono",
   subsets: ["latin"],
+  weight: ["400", "500"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Ayush Dubey",
+  title: "Ayush Dubey — Software Engineer",
   description:
-    "Software Engineer with 4+ years' experience building scalable cross-platform apps, SaaS products, and AI integrations. Explore my portfolio.",
+    "Software Engineer leading Flutter and on-device AI at Twin.shop. 4+ years building AI, SaaS, and SDK products.",
   keywords: [
     "Ayush Dubey",
-    "Mobile Engineer",
-    "Flutter Developer",
     "Software Engineer",
+    "Flutter Developer",
+    "On-device AI",
+    "Lead Engineer Flutter",
+    "Twin.shop",
     "Portfolio",
   ],
   authors: [{ name: "Ayush Dubey" }],
@@ -36,9 +39,9 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Ayush Dubey",
+    title: "Ayush Dubey — Software Engineer",
     description:
-      "Software Engineer with 4+ years' experience building scalable cross-platform apps and SaaS products.",
+      "Leading Flutter and on-device AI at Twin.shop. Builder of Manthan, SaaS apps, and open-source Flutter packages.",
     url: "https://ayushd70.dev",
     siteName: "Ayush Dubey",
     locale: "en_US",
@@ -46,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ayush Dubey",
+    title: "Ayush Dubey — Software Engineer",
     description:
-      "Software Engineer with 4+ years' experience building scalable cross-platform apps and SaaS products.",
+      "Leading Flutter and on-device AI at Twin.shop. Builder of Manthan and open-source Flutter packages.",
     creator: "@Ayushd70",
   },
   metadataBase: new URL("https://ayushd70.dev"),
@@ -62,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}
+        className={`${plusJakarta.variable} ${ibmPlexMono.variable} font-sans antialiased`}
       >
         <ThemeProvider>{children}</ThemeProvider>
       </body>

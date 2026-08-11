@@ -3,32 +3,39 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --color-background: #f8f8fa;
-  --color-foreground: #0f172a;
-  --color-muted: #edeef2;
-  --color-muted-foreground: #475569;
-  --color-border: #d4d7de;
-  --color-accent: #2563eb;
+  --color-background: #e8eaef;
+  --color-foreground: #12141a;
+  --color-muted: #d5d9e2;
+  --color-muted-foreground: #4a5160;
+  --color-border: #c4cad6;
+  --color-accent: #2d6cdf;
   --color-accent-foreground: #ffffff;
-  --color-card: #ffffff;
-  --color-card-foreground: #0f172a;
+  --color-card: #f2f4f7;
+  --color-card-foreground: #12141a;
+  --color-glow: rgba(45, 108, 223, 0.16);
+  --color-mesh-a: rgba(45, 108, 223, 0.18);
+  --color-mesh-b: rgba(70, 100, 160, 0.1);
 }
 
 .dark {
-  --color-background: #0a0a0f;
-  --color-foreground: #e2e8f0;
-  --color-muted: #1e1e2e;
-  --color-muted-foreground: #94a3b8;
-  --color-border: #1e293b;
-  --color-accent: #3b82f6;
-  --color-accent-foreground: #ffffff;
-  --color-card: #111119;
-  --color-card-foreground: #e2e8f0;
+  --color-background: #0c0e12;
+  --color-foreground: #e8eaef;
+  --color-muted: #1a1e28;
+  --color-muted-foreground: #9aa3b5;
+  --color-border: #2a3140;
+  --color-accent: #8bb4ff;
+  --color-accent-foreground: #0b1220;
+  --color-card: #141820;
+  --color-card-foreground: #e8eaef;
+  --color-glow: rgba(139, 180, 255, 0.12);
+  --color-mesh-a: rgba(139, 180, 255, 0.12);
+  --color-mesh-b: rgba(70, 110, 180, 0.08);
 }
 
 @theme inline {
-  --font-sans: var(--font-inter);
-  --font-mono: var(--font-jetbrains-mono);
+  --font-sans: var(--font-plus-jakarta);
+  --font-display: var(--font-plus-jakarta);
+  --font-mono: var(--font-ibm-plex-mono);
 
   --color-background: var(--color-background);
   --color-foreground: var(--color-foreground);
@@ -48,10 +55,45 @@
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-family: var(--font-inter, sans-serif);
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  letter-spacing: -0.011em;
+}
+
+.font-display {
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.font-mono {
+  font-family: var(--font-ibm-plex-mono), ui-monospace, monospace;
+  letter-spacing: 0;
+}
+
+.atmosphere {
+  background-image:
+    radial-gradient(ellipse 80% 60% at 15% 20%, var(--color-mesh-a), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 85% 15%, var(--color-mesh-b), transparent 50%),
+    radial-gradient(ellipse 60% 40% at 50% 90%, var(--color-glow), transparent 55%);
+}
+
+.noise-overlay::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+  mix-blend-mode: multiply;
+}
+
+.dark .noise-overlay::before {
+  opacity: 0.06;
+  mix-blend-mode: soft-light;
 }
 
 ::selection {

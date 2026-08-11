@@ -32,5 +32,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# resume PDF (linked from Google Drive instead)
+# resume PDF — ship the downloadable copy under public/
 *.pdf
+!public/Ayush_Dubey_Resume.pdf

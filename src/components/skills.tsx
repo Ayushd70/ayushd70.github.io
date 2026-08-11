@@ -10,20 +10,17 @@ export function Skills() {
         title="Skills"
         subtitle="Technologies and tools I work with"
       />
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="space-y-8">
         {skillCategories.map((category) => (
-          <div
-            key={category.name}
-            className="rounded-xl border border-border bg-card p-5 transition-colors hover:border-accent/30"
-          >
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-accent">
+          <div key={category.name}>
+            <h3 className="mb-3 font-mono text-xs tracking-[0.18em] text-accent uppercase">
               {category.name}
             </h3>
             <div className="flex flex-wrap gap-2">
               {category.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="rounded-md border border-border bg-muted px-2.5 py-1 font-mono text-xs text-muted-foreground transition-colors hover:border-accent/40 hover:text-foreground"
+                  className="border border-border px-3 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-accent/40 hover:text-foreground"
                 >
                   {skill}
                 </span>
