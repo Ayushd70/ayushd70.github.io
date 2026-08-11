@@ -62,4 +62,4 @@ Custom domain is configured via `CNAME` → `ayushd70.dev`.
 
 ## License
 
-Personal portfolio — content and branding © Ayush Dubey. Feel free to reference the structure; please don’t copy the copy or claim it as your own.
+Released under the [MIT License](LICENSE).
