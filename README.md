@@ -49,6 +49,8 @@ public/
 ```
 
 Most content edits belong in [`src/data/resume.ts`](src/data/resume.ts).
+Project write-ups live in [`src/data/projects.ts`](src/data/projects.ts) and render at `/work/` and `/work/[slug]/`.
+Blog posts live in [`src/data/blog.ts`](src/data/blog.ts) and render at `/blog/` and `/blog/[slug]/`.
 
 ## Deploy
 

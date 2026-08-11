@@ -170,115 +170,8 @@ export const skillCategories: SkillCategory[] = [
   },
 ];
 
-export interface Project {
-  title: string;
-  description: string;
-  tags: string[];
-  url?: string;
-  featured?: boolean;
-  playStoreUrl?: string;
-  appStoreUrl?: string;
-}
-
-export const projects: Project[] = [
-  {
-    title: "Manthan",
-    description:
-      "Privacy-first on-device AI assistant with local LLM inference, multimodal image input, voice, and RAG over local files — no cloud, no leaks. Pluggable LiteRT/MediaPipe Gemma and llama.cpp/GGUF engines with ObjectBox HNSW vector search.",
-    tags: ["Flutter", "On-device LLMs", "RAG", "ObjectBox", "Privacy"],
-    url: "https://github.com/Ayushd70/manthan",
-    featured: true,
-  },
-  {
-    title: "Twin.shop",
-    description:
-      "AI-powered virtual try-on and shopping app. Lead mobile architecture, generative AI UX, and production Flutter standards.",
-    tags: ["Flutter", "AI/ML", "Mobile", "Architecture"],
-    url: "https://www.twin.shop/",
-    playStoreUrl:
-      "https://play.google.com/store/apps/details?id=shop.twin.fashionapp&hl=en_IN",
-    appStoreUrl:
-      "https://apps.apple.com/in/app/twin-try-anything-on-you/id6747106546",
-  },
-  {
-    title: "RentOk Manager App",
-    description:
-      "Flagship B2B property management app serving 30K+ owners. Led iOS development and feature delivery across SaaS workflows.",
-    tags: ["Flutter", "iOS", "B2B", "SaaS"],
-    url: "https://rentok.com/",
-    playStoreUrl:
-      "https://play.google.com/store/apps/details?id=net.eazypg.eazypgmanager&hl=en_IN",
-    appStoreUrl:
-      "https://apps.apple.com/in/app/rentok-pg-hostel-flat-manager/id6553993616",
-  },
-  {
-    title: "Tenant App SDK",
-    description:
-      "White-label SDK for partner-branded tenant apps that contributed to ~80% enterprise revenue growth.",
-    tags: ["Flutter", "SDK", "B2B", "White-label"],
-  },
-  {
-    title: "AI Attendance System",
-    description:
-      "Face recognition, geolocation, and QR check-in flows that reduced manual attendance effort by up to ~70%.",
-    tags: ["AI", "Face Recognition", "Geolocation", "QR"],
-  },
-  {
-    title: "Dynamic Branding Library",
-    description:
-      "Flutter module with runtime logo/icon switching and Android-specific app identity handling for multi-tenant delivery.",
-    tags: ["Flutter", "Android", "Branding", "Module"],
-  },
-  {
-    title: "swipe_reveal_card",
-    description:
-      "Lightweight Flutter card with horizontal swipe-to-reveal actions — published on pub.dev.",
-    tags: ["Flutter", "pub.dev", "UI", "Package"],
-    url: "https://pub.dev/packages/swipe_reveal_card",
-  },
-  {
-    title: "scroll_dismissible_page",
-    description:
-      "Scroll-aware swipe-down-to-dismiss page wrapper. Nested scrollables keep working; dismiss engages only at the top edge.",
-    tags: ["Flutter", "pub.dev", "UI", "Package"],
-    url: "https://pub.dev/packages/scroll_dismissible_page",
-  },
-  {
-    title: "segmented_progress_indicator",
-    description:
-      "Segmented arc progress and fading spinner widgets for Flutter.",
-    tags: ["Flutter", "UI", "Package"],
-    url: "https://github.com/Ayushd70/segmented_progress_indicator",
-  },
-  {
-    title: "infinite_paging_widget",
-    description:
-      "Generic infinite-scroll list and grid with load-more for Flutter.",
-    tags: ["Flutter", "UI", "Package"],
-    url: "https://github.com/Ayushd70/infinite_paging_widget",
-  },
-  {
-    title: "contoured_shadow",
-    description:
-      "Shape-following soft shadow via a Flutter RenderObject widget.",
-    tags: ["Flutter", "RenderObject", "Package"],
-    url: "https://github.com/Ayushd70/contoured_shadow",
-  },
-  {
-    title: "sliding_window_indicator",
-    description:
-      "PageView line indicator with a sliding visible window of lines.",
-    tags: ["Flutter", "UI", "Package"],
-    url: "https://github.com/Ayushd70/sliding_window_indicator",
-  },
-  {
-    title: "Custom Android ROMs",
-    description:
-      "XDA Recognized Developer — maintained custom Android ROMs and device trees for Xiaomi devices, focusing on optimized builds, bring-up, and system-level debugging.",
-    tags: ["Android", "Kernel", "Open Source", "XDA"],
-    url: "https://forum.xda-developers.com/m/ayushd70.5889244/",
-  },
-];
+export { projects } from "./projects";
+export type { Project } from "./projects";
 
 export const education = {
   degree: "B.Tech in Computer Science Engineering",
@@ -291,10 +184,11 @@ export const education = {
 };
 
 export const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Skills", href: "/#skills" },
+  { label: "Work", href: "/work/" },
+  { label: "Blog", href: "/blog/" },
+  { label: "Education", href: "/#education" },
+  { label: "Contact", href: "/#contact" },
 ];
